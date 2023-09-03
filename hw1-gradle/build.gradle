@@ -20,7 +20,7 @@ jar {
             it.isDirectory() ? it : zipTree(it) }
     }
     manifest {
-        attributes "Main-Class": "ru.otus.hw1.egorpetrov"
+        attributes "Main-Class": "ru.otus.hw1.egorpetrov.Main"
     }
 }
 
